@@ -1,0 +1,229 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body{
+    background-color: rgb(1, 5, 12);
+    
+    
+}
+*{
+    margin:0 ;
+    padding:0 ;
+     
+}
+nav{
+font-family: 'Pacifico&display';
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+     height:  60px;
+     background-color: black;
+     color: white;
+     
+
+}
+
+nav ul li{
+   
+    padding-left: 15px;
+    
+}
+
+.menu img{
+    width: 100px;
+    padding: 3px; 
+    justify-content: space-between;
+}
+#container{
+    border: 2px solid black;
+    padding: 5px;
+    color: white;
+}
+.class{
+    text-align: left;
+    position: relative;
+    top:47%;
+    right: -98% ;
+    color: white;
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin: 50px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    color: white;
+}
+.first{
+
+    display: flex;
+    flex-direction:row;
+
+    float:left; 
+    margin: 2px;
+    padding: 2px;
+    width: 300px; 
+    height:260px; 
+    color: white;
+
+
+
+}
+.second{
+    display: flex;
+  flex-direction:row;
+   float: left;
+    padding: 2px;
+    margin: 2px;
+    width: 300px;
+    height:260px;
+    color: white;
+    
+}
+.third{
+    
+    display: flex;
+  flex-direction:row;
+    float: left;
+    padding: 2px;
+    margin: 2px;
+    width: 300px; 
+    height:260px; 
+    color: white;
+   
+}
+.first:hover , .second :hover , .third :hover{
+    transition: 3ms;
+    transform: scale(1.1);
+}
+#Right{
+    float: right;
+    display: flex;
+  flex-direction:row;
+    padding: 5px;
+    margin: 5px;
+    width: 450px; 
+    height: 1200px; 
+    background-color:rgb(1, 5, 12); ;
+    color: white;
+    position: static;
+    overflow: scroll;
+   
+}
+.songItem{
+     height: 100px;
+     display: flex ; 
+     background-color: rgb(1, 5, 12);;
+     width: 100%;
+     margin: 12px 0px;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 23px;
+     color: white;
+     margin-right: 10px;
+}
+.songItem img{
+    width: 80px;
+    margin: 0 23px ;
+    border-radius: 23px;
+
+}
+.top{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+     height:  60px;
+     background-color: rgb(1, 5, 12);;
+     color: white;
+     
+
+}
+#Left{
+    
+    background-color:rgb(1, 5, 12);;
+    margin-top: 320px;
+    position: absolute;
+    left: 4px;
+    /* width: auto; */
+    width: 32%;
+    height: 650px;
+    color: white;
+}
+#Center{
+    background-color: rgb(1, 5, 12);;
+    margin-top: 320px;
+    position: absolute;
+    left:32% ;
+    width: 32%;
+    height: 650px;
+    color: white;
+
+}
+.songItems{
+    height: 60px;
+     display: flex ; 
+     background-color:rgb(1, 5, 12);;
+     width: 90%;
+     margin: 35px 0;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+     
+    
+    
+}
+.songItems img{
+    width: 100px;
+    height: 80px;
+    margin: 0 23px ;
+    padding: 5px;
+    color: white;
+
+    
+}
+h2{
+    border-left-width: 2px;
+}
+#Mid{
+    display: flex;
+    margin: 0 10px;
+    padding: auto;
+    margin-top: 100px;
+    text-align: left;
+    position: absolute;
+    margin-top: 980px;
+    width: 900px;
+    height: 150px;
+    background-color:rgb(1, 5, 12) ;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow:auto;
+}
+
+.Artist{
+    height: 100px;
+    display: flex ; 
+    background-color: rgb(1, 5, 12);;
+    width: 100%;
+    margin: 18px 58px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    color: white;
+    
+    margin-left: 15px;
+    
+}
+
+
+
+.Artist img{
+   width: 90px;
+   margin: 0 17px ;
+   border-radius: 23px;
+
+}
